@@ -1,13 +1,12 @@
-str="massai" 
-N=5;
- for(i=0;i<N/2;i++){
-  }
-      if(===str[N-1-i]){
-          console.log("Yes")
-     }
+let str = "masai";
+let newstr="";
   
-         else
-         {
-     console.log("No")
-    }
+for(i=str.length-1;i>=0;i--){
     
+    newstr = newstr + str[i]
+}
+if ( str==newstr){
+    console.log("Yes");
+} else {
+    console.log("No")
+}
